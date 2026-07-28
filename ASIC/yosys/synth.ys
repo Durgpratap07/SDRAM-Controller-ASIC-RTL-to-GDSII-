@@ -1,0 +1,37 @@
+# ==========================================
+# SDRAM Controller - Generic Yosys Synthesis
+# ==========================================
+
+# Read RTL
+read_verilog ../../RTL/address_decoder.v
+read_verilog ../../RTL/bank_manager.v
+read_verilog ../../RTL/command_generator.v
+read_verilog ../../RTL/sdram_init.v
+read_verilog ../../RTL/sdram_controller.v
+
+# Set top module
+hierarchy -check -top sdram_controller
+
+# Convert behavioral constructs
+proc
+
+# Optimization
+opt
+
+# Extract FSMs
+fsm
+opt
+
+# Handle memories
+memory
+opt
+
+# Generic technology mapping
+techmap
+opt
+
+# Print statistics
+stat
+
+# Write synthesized netlist
+write_verilog sdram_controller_netlist.v

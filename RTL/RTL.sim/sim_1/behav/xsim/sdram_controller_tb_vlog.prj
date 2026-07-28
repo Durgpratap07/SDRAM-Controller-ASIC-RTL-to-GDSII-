@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/vivado/2025.1/Vivado/data/rsb/busdef" \
+"../../../../RTL.srcs/sources_1/new/address_decoder.v" \
+"../../../../RTL.srcs/sources_1/new/bank_manager.v" \
+"../../../../RTL.srcs/sources_1/new/command_generator.v" \
+"../../../../RTL.srcs/sources_1/new/sdram_controller.v" \
+"../../../../RTL.srcs/sources_1/new/sdram_init.v" \
+"../../../../RTL.srcs/sim_1/new/sdram_controller_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

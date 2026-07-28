@@ -1,0 +1,25 @@
+
+57. Printing statistics.
+
+=== sdram_controller ===
+
+   Number of wires:                635
+   Number of wire bits:            811
+   Number of public wires:          33
+   Number of public wire bits:     202
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                745
+     $_ANDNOT_                     141
+     $_AND_                         30
+     $_MUX_                        243
+     $_NAND_                        10
+     $_NOR_                         29
+     $_NOT_                         12
+     $_ORNOT_                       18
+     $_OR_                         116
+     $_XNOR_                         2
+     $_XOR_                         31
+     sky130_fd_sc_hd__dfxtp_2      113
+

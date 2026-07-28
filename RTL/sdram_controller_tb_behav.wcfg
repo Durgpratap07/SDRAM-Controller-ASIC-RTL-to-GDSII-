@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sdram_controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sdram_controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="23.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="46.479 ns"></ZoomEndTime>
+      <Cursor1Time time="140.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="190"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/sdram_controller_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/address" type="array">
+      <obj_property name="ElementShortName">address[23:0]</obj_property>
+      <obj_property name="ObjectShortName">address[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/read_request" type="logic">
+      <obj_property name="ElementShortName">read_request</obj_property>
+      <obj_property name="ObjectShortName">read_request</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/activate_cmd" type="logic">
+      <obj_property name="ElementShortName">activate_cmd</obj_property>
+      <obj_property name="ObjectShortName">activate_cmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/precharge_cmd" type="logic">
+      <obj_property name="ElementShortName">precharge_cmd</obj_property>
+      <obj_property name="ObjectShortName">precharge_cmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/bank_cmd" type="array">
+      <obj_property name="ElementShortName">bank_cmd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bank_cmd[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/row_cmd" type="array">
+      <obj_property name="ElementShortName">row_cmd[11:0]</obj_property>
+      <obj_property name="ObjectShortName">row_cmd[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sdram_controller_tb/column_cmd" type="array">
+      <obj_property name="ElementShortName">column_cmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">column_cmd[7:0]</obj_property>
+   </wvobject>
+</wave_config>

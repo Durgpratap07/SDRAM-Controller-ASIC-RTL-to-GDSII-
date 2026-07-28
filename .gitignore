@@ -1,0 +1,11 @@
+D:\PROJECTS\SDRAM CONTROLLER\
+│
+├── .gitignore
+├── README.md
+├── LICENSE
+├── ASIC/
+├── Assets/
+├── Documentation/
+├── RTL/
+├── TESTBENCH/
+└── ...

@@ -1,0 +1,40 @@
+Time resolution is 1 ps
+
+--- Initialisation ---
+              315000 ns  init_done asserted
+        PASS : init_done reached 1
+
+--- Txn 1 : 0x123456  (bank 0, row 48d, col 15) ---
+              365000 ns  ACTIVATE   bank=0 row=48d
+              385000 ns  READ       bank=0 col=15
+              415000 ns  DATA_VALID data=deadbeef bank=0 row=48d col=15
+              425000 ns  PRECHARGE  bank=0
+        PASS : read_data == DEADBEEF
+        PASS : bank  == 0
+        PASS : row   == 48d
+        PASS : col   == 15
+        PASS : tRCD = 2 clocks (ACTIVATE -> READ)
+        PASS : CL = 3 clocks (READ -> DATA_VALID)
+              445000 ns  back in IDLE
+        PASS : tRP >= 2 clocks (PRECHARGE -> IDLE)
+
+--- Txn 2 : 0xFEDCBA  (bank 3, row fb7, col 2e) ---
+              495000 ns  ACTIVATE   bank=3 row=fb7
+              515000 ns  READ       bank=3 col=2e
+              545000 ns  DATA_VALID data=deadbeef bank=3 row=fb7 col=2e
+              555000 ns  PRECHARGE  bank=3
+        PASS : bank == 3
+        PASS : row == fb7
+        PASS : col == 2e
+        PASS : read_data == DEADBEEF
+
+--- Txn 3 : 0x000004  (bank 0, row 000, col 01) ---
+              625000 ns  ACTIVATE   bank=0 row=000
+              645000 ns  READ       bank=0 col=01
+              675000 ns  DATA_VALID data=deadbeef bank=0 row=000 col=01
+              685000 ns  PRECHARGE  bank=0
+        PASS : bank == 0
+        PASS : row == 000
+        PASS : col == 01
+
+--- Txn 4 : request issued during reset/init (V1 lost this) ---

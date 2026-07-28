@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sim_1/new/address_decoder_tb.v,1784952413,verilog,,,,address_decoder_tb,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sim_1/new/sdram_controller_tb.v,1785147726,verilog,,,,sdram_controller_tb,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/address_decoder.v,1785147954,verilog,,D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/bank_manager.v,,address_decoder,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/bank_manager.v,1785147851,verilog,,D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/command_generator.v,,bank_manager,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/command_generator.v,1785147642,verilog,,D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/sdram_controller.v,,command_generator,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/sdram_controller.v,1785147765,verilog,,D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/sdram_init.v,,sdram_controller,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sources_1/new/sdram_init.v,1785147890,verilog,,D:/PROJECTS/SDRAM CONTROLLER/RTL/RTL.srcs/sim_1/new/sdram_controller_tb.v,,sdram_init,,,C:/vivado/2025.1/Vivado/data/rsb/busdef,,,,,
